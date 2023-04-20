@@ -1,0 +1,77 @@
+/*DEVELOPER: Chehek Sharad, IS117-004, Spring 2023 */
+
+header h1 {
+    font-size: 400%;
+    color: saddlebrown;
+    margin-left: 2px;
+    font-family: Georgia;
+}
+
+footer {
+    margin-top: 10px;
+    background: rosybrown;
+}
+
+body {
+    font-family: Georgia;
+
+}
+
+header * {
+    display: inline;
+    font-family: Georgia;
+
+}
+
+header li {
+    margin: 15px;
+    font-family: Georgia;
+}
+
+header li a {
+    color: floralwhite;
+    text-decoration: none;
+    font-family: Georgia;
+}
+
+main h2,h3,h4,h5, h6 {
+    color: saddlebrown;
+}
+h3,h4,h5,h6 {
+    font-size: 14pt;
+}
+
+h6 {
+    color: saddlebrown;
+    font-size: 14pt;
+}
+p {
+
+    font-size: 20px;
+    color: rosybrown;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+
